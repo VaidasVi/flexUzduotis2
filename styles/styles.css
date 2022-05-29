@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  width: 100vw;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #37e2d5;
+  color: white;
+  margin-top: 0;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header h1 {
+  text-align: center;
+}
+
+header p {
+  text-align: center;
+}
+
+header span {
+  font-weight: bold;
+}
+
+nav {
+  background-color: #354259;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+
+nav a {
+  color: white;
+  margin-left: 2.5rem;
+  text-decoration: none;
+}
+
+article {
+  display: flex;
+  justify-content: flex-start;
+  margin: 0 auto;
+  display: flex;
+}
+
+p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.section-one {
+  margin: 0;
+  padding: 0 20px;
+  width: 40vw;
+  background-color: #efefef;
+}
+
+.pitbull h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 40px;
+}
+
+.pitbull span {
+  font-weight: bold;
+}
+
+.pitbull img {
+  height: 21vw;
+  width: 37vw;
+}
+
+.random-images h2 {
+  margin-bottom: 0;
+}
+
+.random-images img {
+  height: 4vw;
+  width: 37vw;
+  padding-top: 7px;
+}
+
+.section-two {
+  margin: 0;
+  padding: 0 20px;
+  width: 60vw;
+}
+
+.section-two img {
+  height: 21vw;
+  width: 57vw;
+}
+
+.section-two h2 {
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 40px;
+}
+
+.section-two span {
+  font-weight: bold;
+}
